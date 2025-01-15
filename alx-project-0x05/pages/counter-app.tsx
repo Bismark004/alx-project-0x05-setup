@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-const CounterApp: React.FC = () => {
+const CounterApp: React.FC = () => { 
     const [count, setCount] = useState(0);
 
     const increment = () => {
